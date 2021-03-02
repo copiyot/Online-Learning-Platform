@@ -1,0 +1,26 @@
+.student-assignment__header {
+  background: linear-gradient(to top, #ffffff 97%, rgb(121, 113, 234) 3%);
+  border-radius: 10px;
+}
+
+.assignment-title__label,
+.assignment-description__label,
+.assignment-returnDate__label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 600;
+}
+
+.student-assignment__questions {
+  background: linear-gradient(to left, #ffffff 99%, rgb(121, 113, 234) 1%);
+  border-radius: 10px;
+}
+
+.student-question__marks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-hidden {
+  display: none;
+}

@@ -1,0 +1,85 @@
+.sign-up__page {
+    height: 100vh;
+    background: url(../../images/kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up__page .dark-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background: rgb(52, 58, 64);
+}
+
+.sign-up__content {
+    margin-top: 20%;
+}
+
+.teacher-label {
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 1%;
+}
+
+.teacher-mission {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3%;
+}
+
+.fa {
+    margin-left: 10px;
+}
+
+.teacher-button {
+    width: 40%;
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+    margin-bottom: 2%;
+    color: #ffff;
+}
+
+.teacher-button:hover,
+.teacher-button:active {
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+    color: rgb(121, 113, 234);
+}
+
+.parent-label {
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 1%;
+}
+
+.parent-mission {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8%;
+}
+
+.tutorial-button {
+    width: 20%;
+    border-radius: 20px;
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+}
+
+.parent-button {
+    width: 40%;
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+    margin-bottom: 2%;
+    color: #ffff;
+}
+
+.parent-button:hover,
+.parent-button:active {
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+    color: rgb(121, 113, 234);
+}

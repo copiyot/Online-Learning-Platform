@@ -1,0 +1,36 @@
+.class-room {
+  text-align: center;
+  height: 100%;
+}
+
+.class-room__content {
+  padding-bottom: 299px;
+}
+
+.goto-classroom__label {
+  font-size: 60px;
+  color: rgb(121, 113, 234);
+  font-weight: 100;
+}
+
+.class-link {
+  color: rgb(121, 113, 234);
+}
+
+.view-lesson {
+  font-size: 20px;
+  background-color: rgb(121, 113, 234);
+  color: #ffffff;
+}
+
+.view-lesson:hover,
+.view-lesson:focus {
+  border: 1px solid rgb(121, 113, 234);
+  color: rgb(121, 113, 234);
+  background-color: transparent;
+}
+
+.lesson-redirect {
+  text-decoration: underline;
+  cursor: pointer;
+}

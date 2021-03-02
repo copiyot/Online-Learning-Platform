@@ -1,0 +1,12 @@
+.save-subject {
+    background-color: rgb(121, 113, 234);
+    color: #ffffff;
+    border-color: rgb(121, 113, 234);
+}
+
+.save-subject:hover,
+.save-subject:focus {
+    border-color: rgb(121, 113, 234);
+    background-color: transparent;
+    color: rgb(121, 113, 234);
+}

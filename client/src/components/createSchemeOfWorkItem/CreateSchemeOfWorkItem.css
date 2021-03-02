@@ -1,0 +1,12 @@
+.save-schemeof__workitem {
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+    color: #fff;
+}
+
+.save-schemeof__workitem:hover,
+.save-schemeof__workitem:focus {
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+    color: rgb(121, 113, 234);
+}

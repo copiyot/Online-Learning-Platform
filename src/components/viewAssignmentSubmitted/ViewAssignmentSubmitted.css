@@ -1,0 +1,6 @@
+.view-assignment__submitted {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 17% !important;
+  overflow-x: scroll;
+}

@@ -1,0 +1,58 @@
+.mark-assignment {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 17% !important;
+  overflow-x: scroll;
+}
+
+.mark-students__assignments {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 17% !important;
+  overflow-x: scroll;
+}
+
+.submitted-assignments,
+.not-submitted__assignments {
+  background-color: rgb(121, 113, 234);
+  border: 1px solid rgb(121, 113, 234);
+  color: #fff;
+}
+
+.submitted-assignments:focus,
+.submitted-assignments:hover,
+.not-submitted__assignments:focus,
+.not-submitted__assignments:hover {
+  background-color: transparent;
+  border: 1px solid rgb(121, 113, 234);
+  color: rgb(121, 113, 234);
+}
+
+.mark-assignment__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark-question__marks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark-marks__input {
+  display: block;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+  background-color: rgba(0, 0, 0, 0.103);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.mark-student__answer {
+  display: flex;
+}
+
+.count-no__display{
+  display: none;
+}

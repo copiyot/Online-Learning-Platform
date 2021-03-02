@@ -1,0 +1,22 @@
+.lesson-plan {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 18%;
+}
+
+.create-lesson__plan {
+    overflow-x: scroll;
+}
+
+.start-lesson__button {
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+    color: #fff;
+}
+
+.start-lesson__button:hover,
+.start-lesson__button:focus {
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+    color: rgb(121, 113, 234);
+}

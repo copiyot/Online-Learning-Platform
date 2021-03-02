@@ -1,0 +1,25 @@
+.upload-file__label{
+    font-weight: 600;
+    color: black;
+}
+
+.create-assignment__file{
+    margin-top: 11%;
+    margin-bottom: 12%;
+}
+
+.assignment-description__file{
+    border-style: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 17%;
+}
+
+.assignment-description__file:hover,
+.assignment-description__file:focus{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom: 2px solid rgb(121, 113, 234);
+    outline: none;
+}

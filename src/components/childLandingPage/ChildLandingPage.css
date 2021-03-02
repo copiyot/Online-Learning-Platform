@@ -1,0 +1,50 @@
+.child-landing__page {
+    height: 100vh;
+    background: url(../../images/kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-landing__page .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    background: rgb(52, 58, 64);
+}
+
+.child-landing {
+    margin-top: 10%;
+}
+
+.welcome-contents {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.hooray-label {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.child-welcome__message {
+    margin-bottom: 1%;
+}
+
+.student-name {
+    color: rgb(121, 113, 234);
+    font-weight: 600;
+}
+
+.child-btn {
+    margin-top: 4%;
+}
+
+.celebretory-image {
+    background: url(../../images/celeb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

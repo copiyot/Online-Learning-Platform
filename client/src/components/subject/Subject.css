@@ -1,0 +1,10 @@
+.subject {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+.create-buttons {
+  display: flex;
+  justify-content: space-between;
+}

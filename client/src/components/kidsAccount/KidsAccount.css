@@ -1,0 +1,24 @@
+.grade-enrolled,
+.subjects-enrolled,
+.lessons-attended,
+.lessons-absent {
+    display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(121, 113, 234, 0.5);
+}
+
+.subject-enrolled__value{
+  display: block;
+}
+
+.kids-account{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 20%;
+    color: black;
+    border: 2px solid rgba(121, 113, 234, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+.save-subtopic {
+  background-color: rgb(121, 113, 234);
+  color: #ffffff;
+  border-color: rgb(121, 113, 234);
+}
+
+.save-subtopic:hover,
+.save-subtopic:focus {
+  background-color: transparent;
+  color: rgb(121, 113, 234);
+  border-color: rgb(121, 113, 234);
+}
+
+.add-button {
+  background-color: rgb(121, 113, 234);
+  color: #ffffff;
+  border: rgb(121, 113, 234) 1px solid;
+  border-radius: 10px;
+}
+
+.add-button:hover,
+.add-button:focus {
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(121, 113, 234);
+  border: rgb(121, 113, 234) 1px solid;
+}
+
+.objective-title{
+font-weight: 700;
+}

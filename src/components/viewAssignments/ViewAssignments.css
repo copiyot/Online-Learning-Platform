@@ -1,0 +1,21 @@
+.view-assignments {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 17% !important;
+  overflow-x: scroll;
+}
+
+.view-assignment {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.view-assignment__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.assignment-filepath__link {
+  text-decoration: underline rgb(121, 113, 234);
+}

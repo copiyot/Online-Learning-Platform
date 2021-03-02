@@ -1,0 +1,92 @@
+.parent-home__header {
+  box-shadow: 0 4px 8px 0 rgba(121, 113, 234, 0.5),
+    0 6px 20px 0 rgba(121, 113, 234, 0.5);
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 2;
+}
+
+.content {
+  background-color: rgba(128, 128, 128, 0.116);
+  /* width: 80%; */
+  height: 100%;
+  margin-left: 250px;
+  transition: 0.5s;
+}
+
+.sidenav {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.199);
+  height: 102vh;
+  padding-top: 70px;
+  margin-top: -65px;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.kid-name {
+  display: block;
+  color: rgba(17, 17, 17, 0.658);
+  width: 100%;
+  line-height: 40px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background-color;
+}
+
+.kid-name:hover {
+  width: 100%;
+  color: #ffffff;
+  background-color: rgb(121, 113, 234);
+  text-decoration: none;
+}
+
+.parent-account__name {
+  display: block;
+}
+
+.parent-avatar {
+  color: rgba(17, 17, 17, 0.658);
+}
+
+.parent-avatar:hover {
+  color: rgb(121, 113, 234);
+  text-decoration: none;
+}
+
+label #sidebar_btn {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 8px;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover {
+  color: rgb(121, 113, 234);
+}
+
+#check:checked ~ .sidenav {
+  left: -190px;
+}
+
+#check:checked ~ .sidenav a span {
+  display: none;
+}
+
+#check:checked ~ .sidenav a i {
+  font-size: 20px;
+  margin-left: 160px;
+  width: 80px;
+}
+
+#check:checked ~ .content {
+  margin-left: 60px;
+}
+
+#check {
+  display: none;
+}

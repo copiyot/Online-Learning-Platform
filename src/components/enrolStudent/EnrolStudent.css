@@ -1,0 +1,17 @@
+.student-enrol {
+  background-color: rgb(121, 113, 234);
+  color: #ffffff;
+}
+
+.student-enrol:focus,
+.student-enrol:hover {
+  border: 1px solid rgb(121, 113, 234);
+  color: rgb(121, 113, 234);
+  background-color: transparent;
+}
+
+.student-subject__label,
+.student-teacher__label {
+  color: rgb(121, 113, 234);
+  text-align: left !important;
+}

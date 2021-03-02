@@ -1,0 +1,43 @@
+.teacher-invites {
+    height: 100vh;
+    background: url(../../images/kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teacher-invites .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    background: rgb(52, 58, 64);
+}
+
+.teacher-invites__student {
+    margin-top: 10%;
+    color: #ffffff;
+}
+
+.welcome-label {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.invite-students {
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1%;
+}
+
+.yes-btn{
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+}
+
+.yes-btn:hover,
+.yes-btn:focus{
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+}

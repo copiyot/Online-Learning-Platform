@@ -1,0 +1,9 @@
+.scheme-of__workitem{
+    background-color: #fff;
+    border-radius: 10px;
+    /* overflow-x: scroll; */
+}
+
+.create-schemeof__workitem{
+    overflow-x: scroll;
+}

@@ -1,0 +1,41 @@
+.child-sign__up {
+  height: 100vh;
+  background: url(../../images/kids.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.child-sign__up .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  background: rgb(52, 58, 64);
+}
+
+.child-sign {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.profile-name {
+  padding-left: 25%;
+  padding-top: 10%;
+}
+
+.child-signup__header {
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.DoB-date__picker {
+  width: 30px;
+}
+
+.errorMessage {
+  color: rgb(165, 52, 52);
+}

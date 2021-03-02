@@ -1,0 +1,11 @@
+.teacher-kid__assessment {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-x: scroll;
+  margin-bottom: 50px !important;
+}
+
+.kid-name {
+  text-transform: uppercase;
+  color: rgb(121, 113, 234);
+}

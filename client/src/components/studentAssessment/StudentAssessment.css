@@ -1,0 +1,28 @@
+.student-assessment {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-x: scroll;
+  margin-bottom: 50px !important;
+}
+
+.student-start__assessment {
+  background-color: rgb(121, 113, 234);
+  color: #ffffff;
+}
+
+.student-start__assessment:hover,
+.student-start__assessment:focus {
+  border: 1px solid rgb(121, 113, 234);
+  color: rgb(121, 113, 234);
+  background-color: transparent;
+}
+
+.student-assessment__content {
+  padding-bottom: 15%;
+}
+
+.student-assessment__title {
+  color: rgb(121, 113, 234);
+  font-weight: 100;
+  font-size: 30px;
+}

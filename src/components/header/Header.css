@@ -1,0 +1,45 @@
+.contact-us__btn a {
+    color: #ffff;
+}
+
+.contact-us__btn {
+    border-radius: 25px;
+    padding: 0px 10px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgb(121, 113, 234);
+    border-color: rgb(121, 113, 234);
+}
+
+.contact-us__btn:hover,
+.contact-us__btn:focus {
+    background-color: transparent;
+    border-color: rgb(121, 113, 234);
+}
+
+.site-brand {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.site-brand:hover,
+.site-brand:focus {
+    color: rgb(121, 113, 234);
+}
+
+.sign-in__label,
+.sign-up__label {
+    color: #ffff;
+}
+
+.sign-in__label:hover,
+.sign-in__label:focus {
+    color: rgb(121, 113, 234);
+}
+
+.sign-up__label:hover,
+.sign-up__label:focus {
+    color: rgb(121, 113, 234);
+}
